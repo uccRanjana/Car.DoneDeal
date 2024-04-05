@@ -1,0 +1,91 @@
+{
+  "hash": "9e81fd28",
+  "configHash": "07a74717",
+  "lockfileHash": "24acf7ec",
+  "browserHash": "ed571d8e",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "fe8dff7d",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "95df1f08",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "911a8c1b",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "2b4b4b6c",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "e0c69f03",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations/async": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations/async.mjs",
+      "file": "@angular_platform-browser_animations_async.js",
+      "fileHash": "dbc20af4",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "bc40b439",
+      "needsInterop": false
+    },
+    "lottie-web": {
+      "src": "../../../../../node_modules/lottie-web/build/player/lottie.js",
+      "file": "lottie-web.js",
+      "fileHash": "d090c01f",
+      "needsInterop": true
+    },
+    "ngx-lottie": {
+      "src": "../../../../../node_modules/ngx-lottie/fesm2022/ngx-lottie.mjs",
+      "file": "ngx-lottie.js",
+      "fileHash": "d39a2b57",
+      "needsInterop": false
+    },
+    "rxjs": {
+      "src": "../../../../../node_modules/rxjs/dist/esm5/index.js",
+      "file": "rxjs.js",
+      "fileHash": "a8f0b006",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "browser-J5BIXH4G": {
+      "file": "browser-J5BIXH4G.js"
+    },
+    "chunk-4GUURVNV": {
+      "file": "chunk-4GUURVNV.js"
+    },
+    "chunk-32VLCCV5": {
+      "file": "chunk-32VLCCV5.js"
+    },
+    "chunk-GUXAV5WS": {
+      "file": "chunk-GUXAV5WS.js"
+    },
+    "chunk-WYIX5ZXC": {
+      "file": "chunk-WYIX5ZXC.js"
+    },
+    "chunk-WSA2QMXP": {
+      "file": "chunk-WSA2QMXP.js"
+    },
+    "chunk-WKYGNSYM": {
+      "file": "chunk-WKYGNSYM.js"
+    }
+  }
+}

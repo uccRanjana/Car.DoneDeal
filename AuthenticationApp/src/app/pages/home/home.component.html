@@ -1,0 +1,196 @@
+<div class="flex w-full justify-center relative">
+  <div class="w-[80%]">
+    <img
+      class="justify-center overflow-hidden shadow-xl"
+      src="../../../assets/car-ride-dog.jpg"
+      alt="dog-car"
+    />
+    <h1
+      class="absolute bottom-0 left-0 right-0 text-center mb-20 text-white font-bold text-5xl"
+    >
+      Pick.click.Go.
+    </h1>
+    <h2
+      class="absolute bottom-0 left-0 right-0 text-center mb-2 text-white font-bold text-2xl"
+    >
+      Choose from over 20,000 quality-checked cars,<br />
+      all with a 10-day money back guarantee.
+    </h2>
+  </div>
+</div>
+
+<div
+  style="width: 50%; height: 50%"
+  class="flex justify-center ml-[374px] mt-10 mb-5"
+>
+  <ng-lottie
+    [options]="options"
+    (animationCreated)="animationCreated($event)"
+  ></ng-lottie>
+</div>
+<div
+  class="flex justify-center text-center font-bold text-green-900 text-[30px] cursor-pointer"
+>
+  <a routerLink="/login"><h1>Login to check amazing offers</h1></a>
+</div>
+
+<div class="flex flex-col items-center">
+  <div class="flex justify-center gap-3 mb-6">
+    <h1 class="text-3xl font-bold justify-center mt-40">Shop by car type</h1>
+    
+  </div>
+  <div class="flex w-full justify-center gap-8 border-b-2">
+    <div
+      class="rounded-full w-[200px] mt-16 overflow-hidden shadow-xl relative hover:cursor-pointer"
+    >
+      <img src="../../../assets/suv.jpg" class="" />
+      <p class="bottom-0 left-0 right-0 mt-2 mb-2 text-center text-black">
+        Suv
+      </p>
+    </div>
+    <div
+      class="rounded-full w-[200px] mt-14 overflow-hidden shadow-xl relative hover:cursor-pointer"
+    >
+      <img src="../../../assets/hatchback.jpg" class="" />
+      <p class="bottom-0 left-0 right-0 mt-2 mb-2 text-center text-black">
+        Hatchback
+      </p>
+    </div>
+    <div
+      class="rounded-full w-[250px] mt-16 overflow-hidden shadow-xl relative hover:cursor-pointer"
+    >
+      <img src="../../../assets/saloon_1.jpg" class="" />
+      <p class="bottom-0 left-0 right-0 mt-2 mb-2 text-center text-black">
+        Sedan
+      </p>
+    </div>
+
+    <div
+      class="rounded-full w-[200px] mt-14 overflow-hidden shadow-xl relative hover:cursor-pointer"
+    >
+      <img src="../../../assets/hybrid_1.jpg" class="" />
+      <p class="bottom-0 left-0 right-0 mt-2 mb-2 text-center text-black">
+        Hybrid
+      </p>
+    </div>
+    <div
+      class="rounded-full w-[200px] mt-16 overflow-hidden shadow-xl relative hover:cursor-pointer"
+    >
+      <img src="../../../assets/electric.jpg" class="" />
+      <p class="bottom-0 left-0 right-0 mt-2 mb-2 text-center text-black">
+        Electric
+      </p>
+    </div>
+  </div>
+</div>
+<div class="flex-col w-full justify-center py-11 gap-5">
+  <div class="flex w-full justify-center mb-20 mt-8">
+    <h1 class="text-3xl font-bold absolute">Explore Cars</h1>
+  </div>
+  <div class="flex w-full justify-center py-11 gap-2">
+    <div class="rounded-2xl w-[400px] overflow-hidden shadow-xl">
+      <img src="../../../assets/239085_volvo_xc40.jpg" />
+
+      <div class="p-7 text-xl">
+        <h1 class="font-extrabold text-gray-800 mb-5">Best SUVs 2024</h1>
+        <p class="text-gray-700 mb-5">
+          SUVs have topped the INDIA sales charts annually for over a decade and
+          their popularity shows no signs whatsoever of abating.
+        </p>
+        <div class="flex gap-2 text-sm">
+          <div
+            class="rounded-full bg-gray-200 py-1 px-6 text-gray-800 hover:bg-slate-500 hover:text-white cursor-pointer"
+          >
+            #Volvo XC40 T3 R-Design automatic
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-2xl w-[400px] overflow-hidden shadow-xl">
+      <img src="../../../assets/audi-e-tron-gt-1.jpg" />
+
+      <div class="p-7 text-xl">
+        <h1 class="font-extrabold text-gray-800 mb-5">
+          Fastest electric cars 2024
+        </h1>
+        <p class="text-gray-700 mb-5">
+          There are many things to like about electric cars. They can help
+          reduce running costs thanks to the relative cheapness of electricity
+          compared to fuel, plus they don’t contribute to roadside emissions
+          like petrol and diesel cars.
+        </p>
+        <div class="flex gap-2 text-sm">
+          <div
+            class="rounded-full bg-gray-200 py-1 px-6 text-gray-800 hover:bg-slate-500 hover:text-white cursor-pointer"
+          >
+            #Audi RS e-tron GT Carbon Black
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-2xl w-[400px] overflow-hidden shadow-xl">
+      <img src="../../../assets/kia-niro-2022-front-side.jpg" />
+
+      <div class="p-7 text-xl">
+        <h1 class="font-extrabold text-gray-800 mb-5">Best hybrid cars 2024</h1>
+        <p class="text-gray-700 mb-5">
+          Hybrid cars have never been so popular. Indeed, the last few years has
+          seen sales of both hybrid and plug-in hybrid cars rocket, with so
+          signs of that trend slowing down.
+        </p>
+        <div class="flex gap-2 text-sm">
+          <div
+            class="rounded-full bg-gray-200 py-1 px-6 text-gray-800 hover:bg-slate-500 hover:text-white cursor-pointer"
+          >
+            #KIA Niro Hybrid 3
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="flex-col w-full justify-center py-11 gap-5">
+  <div class="flex w-full justify-center mb-20 mt-8">
+    <h1 class="text-3xl font-bold absolute">Top Brands</h1>
+  </div>
+  <div class="flex w-full justify-center gap-10">
+    <div
+      class="p-8 rounded-full w-[200px] h-[200px] overflow-hidden shadow-xl relative border-2 border-black hover:cursor-pointer"
+    >
+      <img src="../../../assets/audi-2023.jpg" class="" />
+      <p class="bottom-0 left-0 right-0 text-center text-black">Audi</p>
+    </div>
+    <div
+      class="p-8 rounded-full w-[200px] h-[200px] overflow-hidden shadow-xl relative border-2 border-black hover:cursor-pointer"
+    >
+      <img src="../../../assets/kia.jpg" class="" />
+      <p class="bottom-0 left-0 right-0 text-center text-black">Kia</p>
+    </div>
+    <div
+      class="p-8 rounded-full w-[200px] h-[200px] overflow-hidden shadow-xl relative border-2 border-black hover:cursor-pointer"
+    >
+      <img src="../../../assets/toyota.jpg" class="" />
+      <p class="bottom-0 left-0 right-0 text-center text-black">Toyota</p>
+    </div>
+
+    <div
+      class="p-8 rounded-full w-[200px] h-[200px] overflow-hidden shadow-xl relative border-2 border-black hover:cursor-pointer"
+    >
+      <img src="../../../assets/ford-2023.jpg" class="" />
+      <p class="bottom-0 left-0 right-0 text-center text-black">Ford</p>
+    </div>
+    <div
+      class="p-8 rounded-full w-[200px] h-[200px] overflow-hidden shadow-xl relative border-2 border-black hover:cursor-pointer"
+    >
+      <img src="../../../assets/skoda.jpg" class="" />
+      <p class="bottom-0 left-0 right-0 text-center text-black">Skoda</p>
+    </div>
+    <div
+      class="p-8 rounded-full w-[200px] h-[200px] overflow-hidden shadow-xl relative border-2 border-black hover:cursor-pointer"
+    >
+      <img src="../../../assets/nissan-2023.jpg" class="" />
+      <p class="bottom-0 left-0 right-0 text-center text-black">Nissan</p>
+    </div>
+  </div>
+</div>

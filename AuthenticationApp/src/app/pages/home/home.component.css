@@ -1,0 +1,15 @@
+.custom-margin {
+    margin-bottom: 20px;
+  }
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem; /* Adjust as needed */
+  }

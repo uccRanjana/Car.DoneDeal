@@ -1,0 +1,52 @@
+<nav
+  class="w-full flex justify-between items-center p-5 bg-indigo-50 shadow-lg"
+>
+  <a [routerLink]="'/'">
+    <div class="logo">
+      <span
+        class="text-grey-200 text-2xl font-bold flex justify-start items-center"
+        >Car<span class="text-blue-950">.DoneDeal</span></span
+      >
+    </div>
+  </a>
+  <div class="nav-items">
+    <ng-container *ngIf="!isLoggedIn">
+      <a [routerLink]="'/signup'"
+        ><span
+          class="text-xl cursor-pointer text-grey-200 font-bold m-3 hover: underline hover:text-indigo-200"
+          ><i class="fa-solid fa-user-plus"></i></span
+      ></a>
+      <a [routerLink]="'/login'"
+        ><span
+          class="text-xl cursor-pointer text-grey-200 font-bold m-3 hover: underline hover:text-indigo-200"
+          ><i class="fa-solid fa-right-to-bracket"></i></span
+      ></a>
+    </ng-container>
+
+    <ng-container *ngIf="isLoggedIn">
+      <a [routerLink]="'/card'"
+        ><span
+          class="text-xl cursor-pointer text-grey-200 font-bold m-3 hover:text-gray-600"
+          >Buy</span
+        ></a
+      >
+      <a [routerLink]="'/'"
+        ><span
+          class="text-xl cursor-pointer text-grey-200 font-bold m-3 hover:text-gray-600"
+          >Sell</span
+        ></a
+      >
+
+      <a [routerLink]="'/'"></a
+      ><span
+        (click)="logout()"
+        class="text-xl cursor-pointer text-grey-200 font-bold m-3 hover:text-gray-600"
+        ><i class="fa-solid fa-right-from-bracket"></i
+      ></span>
+      <span
+        class="text-xl cursor-pointer text-grey-200 font-bold m-3 hover:text-gray-600"
+        ><i class="fa-solid fa-cart-shopping"></i
+      ></span>
+    </ng-container>
+  </div>
+</nav>
